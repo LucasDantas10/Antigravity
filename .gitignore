@@ -1,0 +1,40 @@
+# ==============================================================================
+# .gitignore - Projeto Aula Antigravity
+# ==============================================================================
+
+# 1. AMBIENTES VIRTUAIS (NÃO SUBIR - muito pesados e recriáveis)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# 2. CACHE E ARQUIVOS TEMPORÁRIOS DO PYTHON (NÃO SUBIR)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# 3. VARIÁVEIS DE AMBIENTE E SEGREDOS (NÃO SUBIR - segurança)
+.env
+.env.local
+.env.*.local
+*.secret
+*.key
+
+# 4. CONFIGURAÇÕES PESSOAIS DE EDITORES E SISTEMA (NÃO SUBIR)
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 5. ARQUIVOS DE LOG E TEMPORÁRIOS DE IA (NÃO SUBIR)
+*.log
+.system_generated/
+.gemini/
